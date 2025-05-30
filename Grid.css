@@ -1,0 +1,27 @@
+.aloitus {
+    background-color:#1769B6;
+    padding: 20px;
+    border-radius: 1.5px;
+    
+
+}
+.logo img {
+    border: 2px solid #000000;
+    border-radius: 1.5px;   
+}
+.nav {
+    background-color: #FCCB00;
+    border: 1.5px solid #FFD740;
+    border-radius: 8px;
+    align-items: left;
+    gap: 20px;
+}
+/* VÄRIT
+#000000
+#FFFFFF
+#FCCB00
+#E44423
+#5C9ED9
+#1769B6
+#CDDF8D 
+*/

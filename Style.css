@@ -3,7 +3,17 @@
     align-items: left;
     gap: 22px
 }
+.logo {
+    display: flex;
+    align-items: left;
+    gap: 22px
+}
 
+.nav {
+    display: flex;
+    align-items: left;
+
+}
 
 /* VÄRIT
 #000000
