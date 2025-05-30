@@ -7,7 +7,7 @@
 .logo {
     display: flex;
     align-items: left;
-    gap: 22px
+    gap: 32px
 }
 
 .nav {
@@ -27,7 +27,64 @@
     border-radius: 10px;
     position: relative;
 }
-
+h1 {
+    font-family: 'Bubbly', cursive, sans-serif;
+    color: #FCCB00;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+h2 {
+    font-family:'Bubbly', cursive, sans-serif;
+    color:#000000;
+    text-align: center;
+    font-size: 32px;
+}
+h3{ 
+    font-family:'Bubbly', cursive, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Bubbly', cursive, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 18;
+}
+h5{ 
+    font-family:'Bubbly', cursive, sans-serif;
+    color:#000000;
+    text-align: center;
+    font-size: 16px;
+}
+h6{
+    font-family: 'Bubbly', cursive, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+}
+p {
+    font-family: 'Bubbly', cursive, sans-serif;
+    color: #000000;
+    line-height: 1.5;
+    font-size: x-small;
+}
+.Arvostelu1,
+.Arvostelu2,
+.Arvostelu3,
+.Arvostelu4 {
+    border: 2px solid #1769B6;
+    border-radius: 16px;
+    background-color: #1769B6;
+    max-width: 300px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 16px;
+}
 /* VÄRIT
 #000000
 #FFFFFF
