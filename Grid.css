@@ -5,7 +5,8 @@
     
 
 }
-body { background-color: #5C9ED9;
+body { 
+    background-color: rgba(92, 158, 217, 0.9);
     font-family: 'Bubbly', cursive, sans-serif;
     color: #000000;
     margin: 1;
