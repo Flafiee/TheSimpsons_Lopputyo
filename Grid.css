@@ -52,6 +52,7 @@ transition: filter 0.3s;
 .banner2:hover img {
 filter: brightness(1.2) saturate(1.05);
     }
+
 /* VÄRIT
 
 #000000 - Black

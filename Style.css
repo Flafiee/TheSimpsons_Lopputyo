@@ -38,7 +38,7 @@ h1 {
 h2 {
     font-family:'Bubbly', cursive, sans-serif;
     color:#000000;
-    text-align: center;
+    text-align: fixed;
     font-size: 32px;
 }
 h3{ 
@@ -105,6 +105,16 @@ p {
     display: block;
     float: right;
     box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.Springfieldtext {
+    margin-top: 20px;
+    display: inline-block;
+    border: 4.5px solid #FCCB00;
+    border-radius: 5px;
+    background-color: #1769B6;
+    padding: 1px 1px;
+    box-sizing: border-box;
+    
 }
 /* VÄRIT
 #000000
