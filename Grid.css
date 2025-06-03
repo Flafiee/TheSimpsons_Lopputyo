@@ -15,6 +15,35 @@
     font-size: 24px;
     border-radius: 2px;
 }
+.simphome {
+       margin-top: 20px ;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat();
+    gap: 45px;
+    padding: 20px;
+    background-color: #1769B6;
+}
+
+.simphome img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.simpimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.simpimg img {
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 3px;
+}
 
 
 /* VÄRIT
