@@ -116,6 +116,63 @@ p {
     box-sizing: border-box;
     
 }
+.aloitus {
+    background-color:#1769B6;
+    padding: 20px;
+    border-radius: 3.5px;
+    
+
+}
+body { 
+    background-color: rgba(92, 158, 217, 0.9);
+    font-family: 'Bubbly', cursive, sans-serif;
+    color: #000000;
+    margin: 1;
+    padding: 1;
+}
+.logo img {
+    border: 8px solid #5C9ED9;
+    border-radius: 15px; 
+    padding: 10px;  
+}
+.nav {
+    background-color: #FCCB00;
+    border: 1.5px solid #FFD740;
+    border-radius: 8px;
+    align-items: left;
+    gap: 20px;
+    padding: 10px;
+    }
+.banner, .banner2 {
+display: inline-block;
+width: 59%;
+min-width: 300px;        max-width: 600px;
+height: 200px;
+box-sizing: border-box;
+border-radius: 16px;
+overflow: hidden;
+box-shadow: 4px 16px rgba(23, 105, 182, 0.15);
+transition: box-shadow 0.2s, transform 0.2s;
+background: linear-gradient(90deg, #5C9ED9 0%, #FCCB00 100%);
+}
+
+.banner:hover, .banner2:hover {
+transform: translateY(-4px) scale(1.01);
+}
+.banner img,
+.banner2 img {
+width: 100%; height: 100%;
+object-fit: cover;
+border-radius: 16px;
+transition: filter 0.3s;
+}
+.banner:hover img,
+.banner2:hover img {
+filter: brightness(1.2) saturate(1.05);
+    }
+
+
+    
 /* VÄRIT
 #000000
 #FFFFFF
