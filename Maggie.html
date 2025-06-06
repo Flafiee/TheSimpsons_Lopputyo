@@ -1,1 +1,45 @@
-a
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Grid.css">
+    <link ref="stylesheet" href="Flex.css">
+
+    <title>Characters</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+         <div class="aloitus">
+        <div class="logo">
+     <img src="./Pictures/simpsonslogo.png" alt="The Simpsons Logo" width="125">
+        <h1>The Simpsons Page</h1>
+        </div>
+            </div>
+    <div class="nav">
+        <nav>
+     <a href="Springfieldsivu.html">Springfield</a>
+     <a href="Hahmosivu.html">Characters</a>
+     <a href="Keskustelupalsta.html">Forum</a>
+        <a href="Etusivu.html">Home</a>
+        </nav>
+    </div>
+
+<div class="info-flex">
+  <div class="infomemekuva">
+    <img src="./Pictures/simpsonsmaggie.png" alt="kuva" width="250" height="400">
+  </div>
+  <div class="tab-area">
+    <div class="tab">
+      <button class="tablinks" onclick="Tabit(event, 'Meme')">Meme</button>
+      <button class="tablinks" onclick="Tabit(event, 'Info')">Info</button>
+    </div>
+    <div id="Meme" class="tabcontent">
+      <h3>Memes</h3>
+    </div>
+    <div id="Info" class="tabcontent">
+      <h3>Info</h3>
+    </div>
+  </div>
+    </div>
+        </body>
+        </html>
